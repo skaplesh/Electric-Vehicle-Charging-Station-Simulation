@@ -31,8 +31,9 @@ cd ev-charging-simulation
 
 
 ## Project Structure
-- `station_data_dataverse.csv`: Directory to store input datasets.
+- `data/`: Directory to store input datasets.
 - `EV_Charging_Simulation.ipynb`: Jupyter Notebook file containing the code for simulations and visualizations.
+- `encryption_utils.py`: Script with AES encryption/decryption functions for handling sensitive data.
 - `README.md`: Project documentation.
 
 ## Scenarios
