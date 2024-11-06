@@ -2,8 +2,6 @@
 
 # Electric-Vehicle-Charging-Station-Simulation
 
-# Electric-Vehicle-Charging-Station-Simulation
-
 ## Overview
 This project simulates an electric vehicle (EV) charging station system using real data. The goal is to analyze and optimize charging station operations.
 
