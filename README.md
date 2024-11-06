@@ -34,18 +34,59 @@ Follow these steps to set up the project on your local machine:
 
 
 2. **Navigate to the project directory**
-Change into the project directory:
+   Change into the project directory:
 
 ```bash
 cd Electric-Vehicle-Charging-Station-Simulation
 
-3. **Install Python**
+Navigate to the project directory
+Change into the project directory:
+
+bash
+Copy code
+cd ev-charging-simulation
+Install Python
 Ensure that Python is installed on your machine, with a minimum version of 3.6.6. You can check your Python version with:
 
-```bash
+bash
+Copy code
 python --version
-
 If you need to install Python, download and install the correct version from the official Python website.
+
+Install dependencies
+Install all required Python packages listed in requirements.txt:
+
+bash
+Copy code
+pip install -r requirements.txt
+Navigate to the code directory
+If your code is located in a subdirectory (e.g., code), navigate to that directory:
+
+bash
+Copy code
+cd code
+Set up environment variables
+If your project requires environment variables, rename the env.example file to .env and fill in the necessary details:
+
+bash
+Copy code
+mv env.example .env
+Run the program
+Finally, run the program using the following command:
+
+bash
+Copy code
+python main.py
+Now you’re ready to use the project. For usage instructions, refer to the Usage section.
+
+vbnet
+Copy code
+
+In this format:
+- Each step is **bolded consistently**.
+- The titles for each step should now appear uniform and bolded, with no hidden formatting that could cause inconsistencies. 
+
+Please let me know if this version meets your expectations.
 
 4. **Install dependencies**
 
