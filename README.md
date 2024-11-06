@@ -30,9 +30,11 @@ Clone this repository:
 git clone https://github.com/your-username/ev-charging-simulation.git
 cd ev-charging-simulation
 
-## Installation dependencies:
-
+Install dependencies:
 pip install -r requirements.txt
+
+
+
 
 
 
