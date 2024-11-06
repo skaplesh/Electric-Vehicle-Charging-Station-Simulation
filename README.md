@@ -1,4 +1,6 @@
-![output (6)](https://github.com/user-attachments/assets/23af8c9f-c3b1-481e-a2fb-50834d5721ed)
+
+
+# Electric-Vehicle-Charging-Station-Simulation
 
 # Electric-Vehicle-Charging-Station-Simulation
 
@@ -18,22 +20,60 @@ This project simulates an electric vehicle (EV) charging station system using re
 Clone the project from the Git repository using the following command:
 
 ```bash
-https://github.com/skaplesh/Electric-Vehicle-Charging-Station-Simulation/tree/main
-
-## **Dataset** 
-
-The project uses the `station_data_dataverse.csv` dataset, which includes data on EV charging sessions such as:
-- `sessionId`: Unique identifier for each charging session
-- `kwhTotal`: Total kilowatt-hours charged
-- `dollars`: Charging cost in dollars
-- `startTime`, `endTime`: Charging session start and end times
-- `chargeTimeHrs`: Duration of the charging session in hours
-- Additional fields covering weekday, location, and facility type.
-
-Ensure the dataset is placed in the `station_data_dataverse.csv` directory or update the path in the Jupyter Notebook as necessary.
+https://github.com/skaplesh/Electric-Vehicle-Charging-Station-Simulation
+```
 
 ## 2. Navigate to the Project Directory
 Change into the project directory:
+
+```bash
+cd Electric-Vehicle-Charging-Station-Simulation
+```
+
+## 3. Install Python
+Ensure that Python is installed on your machine, with a minimum version of 3.6.6 and a maximum version of 3.8.9. You can check your Python version with:
+
+```bash
+python --version
+```
+
+If you need to install Python, download and install the correct version from the [official Python website](https://www.python.org/).
+
+## 4. Install Dependencies
+Install all required Python packages listed in `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 5. Navigate to the Code Directory
+Change into the code directory:
+
+```bash
+cd code
+```
+
+## 6. Set Up Environment Variables
+Rename the `env.example` file to `.env`:
+
+```bash
+mv env.example .env
+```
+
+## 7. Run the Simulation
+Finally, run the simulation program using the following command:
+
+```bash
+python EV_Charging_Simulation.ipynb
+```
+
+## Dataset
+The simulation uses the dataset `station_data_dataverse.csv`, which contains relevant data for EV charging station operations.
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
