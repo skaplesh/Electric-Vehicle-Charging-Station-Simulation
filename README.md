@@ -70,9 +70,6 @@ The simulation uses the dataset `station_data_dataverse.csv`, which contains rel
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 
 
 
